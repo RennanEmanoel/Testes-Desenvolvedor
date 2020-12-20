@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    color: #5a5c69;
+    font-family: sans-serif;
+}
+header {
+    background-color: #fff;
+    color: #1cc88a;
+    padding: 8px 20px;
+    box-shadow: 1px 4px 2px rgba(58, 59, 69, .15);
+}
+footer {
+    background-color: #ffff;
+    text-align: center;
+}
+/* Parte principal da pagina*/
+.titulo {
+    font-family: bree serif;
+    margin-left: 30px;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+.container {
+    background-color: #ffff;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+    box-shadow: 1px 3px 2px rgba(58, 59, 69, .15);
+    width: 90%;
+}
+.container-2 {
+    background-color: #ffff;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-top: 20px;
+    box-shadow: 1px 3px 2px rgba(58, 59, 69, .15);
+    width: 90%;
+}
+.head-Card {
+    background-color: #f8f9fc;
+    color: #4e73df;
+    padding: 15px 12px;
+}
+main {
+    background-color: #f7f8fb;
+}
+.modelo1 {
+    display: flex;    
+    border-top: 1px solid rgba(58, 59, 69, .15);
+    padding: 15px 20px;
+    max-width: 95%;
+    margin-left: 20px;
+    justify-content: space-between;
+    cursor: pointer;
+ 
+}
+.modelo2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    border-top: 1px solid rgba(58, 59, 69, .15);
+    max-width: 95%;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.modelo3 {
+    display: flex;
+    margin-left: 20px;
+    border-top:1px solid rgba(58, 59, 69, .15);
+    max-width: 95%;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgba(58, 59, 69, .15);
+    cursor: pointer;
+}
+.ver-mais {
+    cursor: pointer;
+    color: #4e73df;
+    margin-right: 300px;
+}
+.ver-mais:hover {
+    color: #1cc88a
+}
+.carro h4 {
+    border-top: 1px solid #e3e6f0;
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 95%;
+    padding: 9px 10px;
+}
+/*Resposividade do código*/
+@media screen and (max-width: 650px) {
+    .container-2 {
+        width: 60%;
+
+    }
+    header {
+       align-items:  center;
+
+    }
+}
